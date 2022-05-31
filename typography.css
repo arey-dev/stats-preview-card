@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+  font-size: 15px;
+}
+
+.card__headline,
+.card__stat {
+  color: var(--color-white);
+  font-family: var(--font-fm-main);
+}
+
+
+.card__headline span {
+  color: var(--color-accent);
+}
+
+.card__subheading,
+.card__stat-heading {
+  font-family: var(--font-fm-sub);
+}
+
+.card__subheading {
+  color: var(--color-white-light);
+}
+
+.card__stat-heading {
+  color: var(--color-white-lighter);
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  font-size: 0.75rem;
+}

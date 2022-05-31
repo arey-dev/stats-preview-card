@@ -1,0 +1,23 @@
+:root {
+  /* Primary */
+  --color-bg-main: hsl(233, 47%, 7%);
+  --color-bg-card: hsl(244, 38%, 16%);
+  --color-accent: hsl(277, 64%, 61%);
+  --color-accent-blur: hsla(277, 68%, 39%, 0.48);
+
+  /* Neutral */
+  --color-white: hsl(0, 0%, 100%);
+  --color-white-light: hsla(0, 0%, 100%, 0.75);
+  --color-white-lighter: hsla(0, 0%, 100%, 0.6);
+
+  /* font */
+  --font-fm-main: 'Inter', sans-serif;
+  --font-fm-sub: 'Lexend Deca', sans-serif;
+}
+
+/* global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
