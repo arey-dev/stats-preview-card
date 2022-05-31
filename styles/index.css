@@ -23,7 +23,7 @@ main {
   min-height: calc(240px + 2vh);
   background: 
     linear-gradient(var(--color-accent-blur), var(--color-accent-blur)), /* overlay */
-    url(/images/image-header-desktop.jpg)
+    url(./images/image-header-desktop.jpg)
     top/cover;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
